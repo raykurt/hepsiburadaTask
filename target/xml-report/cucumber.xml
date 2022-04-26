@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="81.968">
+    <testcase classname="Sepete Urun Ekleme" name="Kullanici Girisi Yapilmadan Urun Ekleme" time="42.843">
+        <system-out><![CDATA[Given kullanici hepsiburadayi ziyaret eder..................................passed
+Given kullanici "duracell pil" urun aramasi yapar...........................passed
+And kullanici almak istedigi urunu secer....................................passed
+And kullanici urunu iki farkli saticidan sepete ekler.......................passed
+Then kullanici sectigi urunleri sepetten dogrular...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sepete Urun Ekleme" name="Kullanici Girisi Yapilarak Urun Ekleme" time="38.801">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=100.0.4896.127)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'LAPTOP-KJ47EG41', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dc81e021a8c1cbe28eff0b953b995c9f, findElement {using=xpath, value=//span[@class='sf-OldMyAccount-PhY-T']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rayku\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53078/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dc81e021a8c1cbe28eff0b953b995c9f" type="org.openqa.selenium.WebDriverException"><![CDATA[Given kullanici hepsiburadayi ziyaret eder..................................passed
+Given kullanici giris yapar.................................................passed
+And kullanici giris yapabildigini anasayfadan dogrular......................failed
+And kullanici "bridgestone t005" urun aramasi yapar.........................skipped
+And kullanici almak istedigi urunu secer....................................skipped
+And kullanici urunu iki farkli saticidan sepete ekler.......................skipped
+Then kullanici sectigi urunleri sepetten dogrular...........................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-KJ47EG41', ip: '192.168.1.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc81e021a8c1cbe28eff0b953b995c9f, findElement {using=xpath, value=//span[@class='sf-OldMyAccount-PhY-T']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\rayku\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53078/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc81e021a8c1cbe28eff0b953b995c9f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)
+	at stepdefinitions.HepsiburadaUrunEklemeSteps.kullanici_giris_yapabildigini_anasayfadan_dogrular(HepsiburadaUrunEklemeSteps.java:80)
+	at ✽.kullanici giris yapabildigini anasayfadan dogrular(file:///C:/Users/rayku/IdeaProjects/hepsiburadaTask/./src/test/resources/hepsiburadaUrunEkleme.feature:17)
+]]></failure>
+    </testcase>
+</testsuite>
