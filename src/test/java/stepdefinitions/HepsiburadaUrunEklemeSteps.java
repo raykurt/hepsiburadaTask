@@ -32,7 +32,6 @@ public class HepsiburadaUrunEklemeSteps {
     @And("kullanici almak istedigi urunu secer")
     public void kullanici_almak_istedigi_urunu_secer() {
         HepsiburadaUtility.waitAndClickElement(pageObject.ikinciEleman,5);
-
     }
 
     @And("kullanici urunu iki farkli saticidan sepete ekler")
