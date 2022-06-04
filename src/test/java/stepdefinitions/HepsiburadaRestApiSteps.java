@@ -97,6 +97,5 @@ public class HepsiburadaRestApiSteps {
                 assertThat().
                 statusCode(400).
                 body("message",equalTo("Bad Request"));
-
     }
 }

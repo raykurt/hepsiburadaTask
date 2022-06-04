@@ -18,7 +18,6 @@ public class HepsiburadaUrunEklemeSteps {
 
     @Given("kullanici hepsiburadayi ziyaret eder")
     public void kullanici_hepsiburadayi_ziyaret_eder() {
-
         HepsiburadaUtility.getDriver().navigate().to("https://www.hepsiburada.com/");
     }
 
