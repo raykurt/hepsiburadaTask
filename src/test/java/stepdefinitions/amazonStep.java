@@ -36,10 +36,17 @@ public class amazonStep {
         }
 
         System.out.println(result);
-
         double averagePrice = result/elementsWholes.size();
 
         System.out.println(averagePrice);
+    }
+
+    @Given("urun aramasi yap")
+    public void urun_aramasi_yap() {
+
+    }
+    @Given("urunu dogrula")
+    public void urunu_dogrula() {
 
     }
 

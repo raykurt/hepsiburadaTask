@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.773">
-    <testcase classname="amazon" name="amazon" time="15.526">
-        <system-out><![CDATA[Given amazona gidis.........................................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.296">
+    <testcase classname="amazon" name="amazon" time="0.359">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given amazona gidis.........................................................passed
+And urun aramasi yap........................................................undefined
+And urunu dogrula...........................................................skipped
+]]></failure>
     </testcase>
 </testsuite>
