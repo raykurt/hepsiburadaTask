@@ -1,4 +1,4 @@
 @aaaaa
-Feature: aaa
-  Scenario: aaa
+Feature: Build
+  Scenario: Build
     Given user enter site

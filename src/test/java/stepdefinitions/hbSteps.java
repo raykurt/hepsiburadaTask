@@ -30,7 +30,7 @@ public class hbSteps {
 
 
                 WebElement searchBar = driver.findElement(By.id("search_txt"));
-        searchBar.sendKeys("Guitar" + Keys.ENTER);
+        searchBar.sendKeys("Bath" + Keys.ENTER);
 
 
     }
