@@ -18,7 +18,6 @@ public class hbSteps {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        Object WebElement = null;
 
         driver.get("https://www.build.com/");
 
@@ -27,7 +26,6 @@ public class hbSteps {
 
         WebElement notYet = driver.findElement(By.xpath("(//div[@class='btn_wrapper']/button)[1]"));
         notYet.click();
-
 
                 WebElement searchBar = driver.findElement(By.id("search_txt"));
         searchBar.sendKeys("Bath" + Keys.ENTER);
